@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Lato:ital,wght@0,400;0,700;1,400&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+.wrapper {
+  max-width: 100%;
+}
+
+.header {
+  height: 56.3rem;
+  max-width: 100%;
+  background-color: #000;
+  color: #fff;
+  background-image: url(../img/pyramid.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+.header__top {
+  height: 12.5rem;
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1450px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header__body {
+  margin-top: 12.5rem;
+}
+.header__title {
+  margin: 7.125rem 0 1.75rem 0;
+}
+.header__link {
+  flex: 0 1 auto;
+}
+.header__button {
+  border: none;
+  font-family: Roboto;
+  font-style: Thin;
+  font-size: 22px;
+  line-height: 26px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 20px 50px;
+  border-radius: 10px;
+  background-color: #710707;
+  box-shadow: 5px 5px 5px black;
+}
+.header__button:hover {
+  background-color: rgb(9, 20, 134);
+  color: rgb(189, 235, 96);
+}
+.header__subtitle {
+  font-family: Roboto;
+  font-style: Light;
+  font-size: 28px;
+  line-height: 33px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  margin-bottom: 76px;
+}
+
+.content-wrapper {
+  box-sizing: border-box;
+  max-width: 90.625rem;
+  padding: 0 1.25rem;
+  margin: 0 auto;
+}
+
+.header-wrapper-1 {
+  max-width: 100%;
+  border-bottom: 3px solid #fff;
+  background-color: #000;
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.header-wrapper-1 .pop-up {
+  display: none;
+}
+
+.logo {
+  flex: 0 1 auto;
+  align-items: center;
+}
+.logo__text {
+  background-image: url(../img/logo.png);
+  background-position: 0 0.3125rem;
+  background-repeat: no-repeat;
+  padding-left: 3.625rem;
+  font-family: Forum;
+  font-style: Regular;
+  font-size: 1.75rem;
+  line-height: 162%;
+  letter-spacing: 0.3125rem;
+}
+.logo__text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hamb {
+  display: none;
+}
+.nav {
+  flex: 0 1 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  flex: 0 1 auto;
+}
+.nav__link a {
+  font-family: Roboto;
+  font-style: Thin;
+  font-size: 1.375rem;
+  line-height: 194%;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.title {
+  font-family: Forum;
+  font-style: Regular;
+  font-size: 80px;
+  line-height: 90px;
+  line-height: 102%;
+  letter-spacing: 5px;
+}
+
+.header-wrapper {
+  padding-top: 50px;
+}
