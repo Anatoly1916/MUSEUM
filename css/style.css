@@ -234,3 +234,32 @@
   width: 100%;
   height: 100%;
 }
+
+.video__content {
+  padding: 30px 0 75px;
+}
+.video__img {
+  position: relative;
+  padding-bottom: 50%;
+  margin-bottom: 40px;
+}
+.video__img img,
+.video__img iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.video__body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+.video__text {
+  font-family: Roboto;
+  font-style: Light;
+  font-size: 22px;
+  line-height: 149%;
+}
