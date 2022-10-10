@@ -263,3 +263,124 @@
   font-size: 22px;
   line-height: 149%;
 }
+
+.tickets {
+  background-color: #000;
+  color: #fff;
+  padding: 4.6875rem 0;
+}
+.tickets__title {
+  padding-bottom: 25px;
+  margin-bottom: 75px;
+  border-bottom: 3px solid #710707;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+.info__img {
+  position: relative;
+  padding-bottom: 80%;
+}
+.info__img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.info__body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.info__item1 {
+  justify-self: center;
+}
+.info__subtitle {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 100%;
+  margin-bottom: 50px;
+}
+.info__list {
+  list-style: none;
+  padding: 0;
+}
+.info__link {
+  font-family: Roboto;
+  font-style: Light;
+  font-size: 1.375rem;
+  line-height: 100%;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.info__link input {
+  margin-right: 20px;
+  transform: scale(1.8);
+}
+.info__content {
+  display: inline-block;
+}
+.info__item2 {
+  text-align: right;
+}
+.info__subtitle2 {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 100%;
+  text-align: right;
+}
+.info__text_1 {
+  margin: 0.6875rem 0 0.875rem;
+}
+.info__text_2 {
+  margin: 2.1875rem 0 0.875rem;
+}
+.info__text {
+  font-family: Roboto;
+  font-style: Light;
+  font-size: 1.375rem;
+  line-height: 100%;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+.info__icon {
+  font-size: 1.375rem;
+  width: 9.375rem;
+  height: 3.125rem;
+  border: 0.1875rem solid #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info__icon .ticket {
+  font-family: Roboto;
+  font-style: Regular;
+  line-height: 100%;
+}
+.info__total {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 1.75rem;
+  line-height: 100%;
+  letter-spacing: 0.103125rem;
+  text-align: right;
+  margin: 3.125rem 0 3.125rem;
+}
+
+.buy {
+  width: 10.9375rem;
+  height: 3.125rem;
+  background-color: #fff;
+  font-family: Roboto;
+  font-style: Light;
+  font-size: 1.375rem;
+  line-height: 100%;
+  letter-spacing: 0.125rem;
+  border-radius: 5px;
+}

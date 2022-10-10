@@ -380,3 +380,181 @@
 		line-height: 149%;
 	}
 }
+
+
+.tickets {
+	background-color: #000;
+	color: #fff;
+	padding: 4.6875rem 0;
+	// .tickets__content
+
+	&__content {
+	}
+
+	// .tickets__title
+
+	&__title {
+		padding-bottom: 25px;
+		margin-bottom: 75px;
+		border-bottom: 3px solid #710707;
+	}
+}
+
+.info {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+	// .info__img
+
+	&__img {
+		img{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		position: relative;
+		padding-bottom: 80%;
+	}
+
+	// .info__body
+
+	&__body {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+
+	// .info__item1
+
+	&__item1 {
+		justify-self: center;
+	}
+
+	// .info__subtitle
+
+	&__subtitle {
+		font-family: Roboto;
+		font-style: Bold;
+		font-size: 28px;
+		line-height: 100%;
+		margin-bottom: 50px;
+	}
+
+	// .info__list
+
+	&__list {
+		list-style: none;
+		padding: 0;
+	}
+
+	// .info__link
+
+	&__link {
+		input{
+			margin-right: 20px;
+			transform: scale(1.8);
+		}
+		font-family: Roboto;
+		font-style: Light;
+		font-size: 1.375rem;
+		line-height: 100%;		
+		color: #fff;
+		margin-bottom: 50px;
+		
+		// .info__link_1
+
+		&_1 {
+			// background: url(../img/icons/icon1.svg) no-repeat;
+		}
+
+		&_2 {
+			// background: url(../img/icons/icon2.svg) no-repeat;
+		}
+
+		&_3 {
+			// background: url(../img/icons/icon3.svg) no-repeat;		
+		}
+	}
+
+	&__content{
+		display: inline-block;
+	}
+	// .info__item2
+
+	&__item2 {
+		text-align: right;
+		
+	}
+
+	// .info__subtitle2
+
+	&__subtitle2 {
+		font-family: Roboto;
+		font-style: Bold;
+		font-size: 28px;
+		line-height: 100%;
+		text-align: right;
+	}
+
+	// .info__text
+	&__text_1{
+		margin: 0.6875rem 0 0.875rem;
+	}
+
+	&__text_2{
+		margin: 2.1875rem 0 0.875rem;
+	}
+
+	&__text {
+		font-family: Roboto;
+		font-style: Light;
+		font-size: 1.375rem;
+		line-height: 100%;
+		text-align-last: left;
+		// padding-left: 1.375rem;
+	}
+
+	// .info__icon
+
+	&__icon {
+		font-size: 1.375rem;
+		width: 9.375rem;
+		height: 3.125rem;
+		border: 0.1875rem solid #fff;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		.ticket{
+			font-family: Roboto;
+			font-style: Regular;
+			line-height: 100%;
+		}
+		.val-1{
+
+		}
+
+	}
+
+	&__total{
+		font-family: Roboto;
+		font-style: Bold;
+		font-size: 1.75rem;
+		line-height: 100%;
+		letter-spacing: 0.103125rem;
+		text-align: right;
+		margin: 3.125rem 0 3.125rem;
+	}
+}
+
+.buy {
+	width: 10.9375rem;
+	height: 3.125rem;
+	background-color: #fff;
+	font-family: Roboto;
+	font-style: Light;
+	font-size: 1.375rem;
+	line-height: 100%;
+	letter-spacing: 0.125rem;
+	border-radius: 5px;
+}
