@@ -520,7 +520,7 @@
   position: relative;
   padding-bottom: 85%;
 }
-.contacts__img img {
+.contacts__img iframe {
   position: absolute;
   top: 0;
   left: 0;
